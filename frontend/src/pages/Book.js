@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:4000";
+const API = "/api";
 
 function Book({ token }) {
   const [date, setDate] = useState("");
